@@ -67,11 +67,11 @@ public class PopulateDB implements PopulateDBLocal {
         Date dateFin = addDays(adj, 1);
         
         Long idManger = missionManager.createMission("manger à la cafèt sans mourrir", "aller manger à la cafèt", adj, dateFin, 12, Statut.ENCOURS, "manger", idBastien, idDarko);
-        Long idTest = missionManager.createMission("terminé sons tb", "terminé sans tb sans ragequitter", adj, dateFin, 12, Statut.ENCOURS, "études", idDarko, idBastien);
+        Long idTest = missionManager.createMission("terminer sons tb", "terminer sans tb sans ragequitter", adj, dateFin, 12, Statut.ENCOURS, "études", idDarko, idBastien);
         
-        Long idA_valider = missionManager.createMission("une mission déjà terminée", "partir en vacances", adj, dateFin, 12, Statut.A_VALIDE, "études", idDarko, idBastien);
+        Long idA_valider = missionManager.createMission("courir un marathon", "partir en vacances", adj, dateFin, 12, Statut.A_VALIDE, "études", idDarko, idBastien);
         
-        Long idA_valider2 = missionManager.createMission("encore une mission terminée", "boire une bière", adj, dateFin, 12, Statut.A_VALIDE, "études", idDarko, idBastien);
+        Long idA_valider2 = missionManager.createMission("coder une app android", "boire une bière", adj, dateFin, 12, Statut.A_VALIDE, "études", idDarko, idBastien);
         
         
     }

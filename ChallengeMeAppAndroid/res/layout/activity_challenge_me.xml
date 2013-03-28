@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+ 
+	<TextView
+	    android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_marginTop="100dp"
+    	android:gravity="center"
+    	android:textSize="25sp"
+    	android:textStyle="bold"
+    	android:textColor="#FFA500"
+	    android:text="@string/identification" />
+	
+	<EditText
+	    android:id="@+id/idPlayer"
+		android:layout_width="250sp"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="10dp"
+		android:layout_gravity="center"
+		android:inputType="numberDecimal"
+		android:hint="Player id" />
+	
+	<Button
+		android:id="@+id/login"
+		android:layout_width="250sp"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="10dp"
+		android:layout_gravity="center"
+		android:hint="@string/connexion" />
+	
+	<Button
+		android:id="@+id/register"
+		android:layout_width="250sp"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="100dp"
+		android:layout_gravity="center"
+		android:hint="@string/inscription" />
+	
+</LinearLayout>

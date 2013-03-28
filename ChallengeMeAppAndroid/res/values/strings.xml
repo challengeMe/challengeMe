@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Challenge Me</string>
+    <string name="action_settings">Settings</string>
+    <string name="identification">Identification</string>
+    <string name="prenom">Prénom</string>
+    <string name="nom">Nom</string>
+    <string name="connexion">Se connecter</string>
+    <string name="inscription">Inscription</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_add_new_user">Inscription</string>
+    <string name="newInscription">Nouveau challengeur</string>
+    <string name="email">email@example.com</string>
+    <string name="ajoutUtilisateur">S\'inscrire</string>
+    <string name="mesMissions">Mes missions</string>
+    <string name="mesGroupes">Mes groupes</string>
+    <string name="monProfil">Challengeur</string>
+    <string name="monProfilNomPrenom">Nom Prénom</string>
+    <string name="monProfilPts">Points:</string>
+    <string name="monProfilBadges">Badges</string>
+    <string name="mesBadges">Mes badges</string>
+    <string name="title_activity_missions">Mes Missions</string>
+    <string name="title_activity_groupes">Mes Groupes</string>
+    <string name="title_activity_liste_groupe">Mes Groupes</string>
+    <string name="title_activity_liste_mission">Mes Missions</string>
+    <string name="title_activity_liste_badge">Mes Badges</string>
+	<string name="title_activity_add_new_mission">Nouvelle Mission</string>
+	<string name="assignTo">Assigner à</string>
+	<string name="titleNewMission">Titre de la mission</string>
+	<string name="descNewMission">Description</string>
+	<string name="tempsMission">Temps</string>
+	<string name="nbrePoints">Nombre de points</string>
+	<string name="title_activity_assign_new_mission">Assigner à</string>
+	<string name="addNewMission">Nouvelle mission</string>
+	<string name="assignGroupeName">Membres de Gourpe du Tonerre</string>
+	<string name="validateMissions">Valider missions</string>
+	<string name="title_activity_validate_mission">Valider Missions</string>
+</resources>

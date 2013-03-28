@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical" >
+	
+    <TextView
+        android:id="@+id/profil"
+	    android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_marginTop="10dp"
+    	android:layout_marginLeft="10dp"
+    	android:textSize="20sp"
+    	android:textStyle="bold"
+    	android:textColor="#FFA500"
+	    android:text="@string/monProfil" />
+    
+    <TextView
+        android:id="@+id/profilNomPrenom"
+        android:layout_below="@+id/profil"
+	    android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_marginTop="20dp"
+    	android:layout_marginLeft="20dp"
+    	android:textSize="18sp"
+	    android:text="@string/monProfilNomPrenom" />
+    
+    <TextView
+        android:id="@+id/profilPts"
+        android:layout_below="@+id/profilNomPrenom"
+	    android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_marginTop="5dp"
+    	android:layout_marginLeft="20dp"
+    	android:textSize="18sp"
+	    android:text="@string/monProfilPts" />
+    
+    <TextView
+        android:id="@+id/profilBadges"
+        android:layout_below="@+id/profilPts"
+	    android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_marginTop="20dp"
+    	android:layout_marginLeft="10dp"
+    	android:textSize="20sp"
+    	android:textStyle="bold"
+    	android:textColor="#FFA500"
+	    android:text="@string/monProfilBadges" />
+    
+    <Button
+	    android:id="@+id/badges"
+	    android:layout_below="@+id/profilBadges"
+	    android:layout_marginTop="20dp"
+    	android:layout_marginLeft="10dp"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:hint="@string/mesBadges" />
+    
+   
+    <Button
+	    android:id="@+id/validateMissions"
+	    android:layout_below="@+id/badges"
+	    android:layout_marginTop="20dp"
+    	android:layout_marginLeft="10dp"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:hint="@string/validateMissions" />
+    <Button
+	    android:id="@+id/missions"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    android:hint="@string/mesMissions" />
+    
+    <Button
+	    android:id="@+id/groupes"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    android:layout_alignParentRight="true"
+	    android:hint="@string/mesGroupes" />
+    
+
+    
+
+</RelativeLayout>

@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+ 
+	<TextView
+	    android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_marginTop="100dp"
+    	android:gravity="center"
+    	android:textSize="25sp"
+    	android:textStyle="bold"
+    	android:textColor="#FFA500"
+	    android:text="@string/newInscription" />
+	
+	<EditText
+	    android:id="@+id/lastName"
+		android:layout_width="250sp"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="10dp"
+		android:layout_gravity="center"
+		android:hint="@string/nom" />
+	
+	<EditText
+	    android:id="@+id/firstName"
+		android:layout_width="250sp"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="10dp"
+		android:layout_gravity="center"
+		android:hint="@string/prenom" />
+	
+	<EditText
+	    android:id="@+id/mail"
+		android:layout_width="250sp"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="10dp"
+		android:inputType="textEmailAddress"
+		android:layout_gravity="center"
+		android:hint="@string/email" />
+	
+	<Button
+		android:id="@+id/addUser"
+		android:layout_width="250sp"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="10dp"
+		android:layout_gravity="center"
+		android:hint="@string/ajoutUtilisateur" />
+	
+</LinearLayout>

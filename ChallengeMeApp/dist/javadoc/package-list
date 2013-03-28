@@ -1,0 +1,8 @@
+ch.comem.daoExceptions
+ch.comem.models
+ch.comem.models.DTO
+ch.comem.rest.client
+ch.comem.rest.service
+ch.comem.rest.service.exceptionMapper
+ch.comem.services
+test

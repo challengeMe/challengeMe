@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jax-ws xmlns="http://www.netbeans.org/ns/jax-ws/1">
+  <services>
+    <service name="TestMedia">
+      <implementation-class>test.TestMedia</implementation-class>
+    </service>
+    <service name="TestDataGroupe">
+      <implementation-class>test.TestDataGroupe</implementation-class>
+    </service>
+    <service name="TestDataManager">
+      <implementation-class>test.TestDataManager</implementation-class>
+    </service>
+    <service name="PopulateDB">
+      <implementation-class>test.PopulateDB</implementation-class>
+    </service>
+  </services>
+  <clients/>
+</jax-ws>
